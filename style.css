@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c4c9b7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px; /* Réduire la valeur à 400 pixels */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.section:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+  text-align: center;
+  background-color: #8c9d88;
+  color: #fff;
+}
+
+#header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#profile {
+  background-color: #d1c8b8;
+}
+
+#passions {
+  background-color: #fdd2b5;
+}
+
+#social {
+  background-color: #fbbdcf;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #525252;
+  color: #fff;
+  font-size: 24px;
+  line-height: 100px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.logo:hover {
+  background-color: #888;
+}
